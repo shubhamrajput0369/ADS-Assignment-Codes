@@ -296,3 +296,10 @@ int main()
 						                S1.display();
 						                break;
 						            }
+						            case 2:
+						            {
+						                S2.display();
+						                break;
+						            }
+						            }
+						            break;
