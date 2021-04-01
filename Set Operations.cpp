@@ -33,3 +33,19 @@ public:	sets()
 			}
 		}
 
+		void display()
+		{
+
+			if(hn==NULL)
+				{
+					cout<<"\nLIST EMPTY";
+					return;
+				}
+				node *cn=hn;
+				while(cn!=NULL)
+				{
+				cout<<cn->data<<"\t";
+				cn=cn->next;
+				}
+		}
+
