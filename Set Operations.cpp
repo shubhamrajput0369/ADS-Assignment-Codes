@@ -207,3 +207,15 @@ int main()
 		{
 		case 1:
 
+		            cout << "\n1.Insert in Set 1 \n2.Insert in Set 2\n>>";
+		            cin >> ch;
+
+						switch (ch)
+						{
+						case 1:
+
+								cout << "\nEnter data to Insert: ";
+								cin>>value;
+								S1.insert(value);
+								break;
+
