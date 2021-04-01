@@ -248,3 +248,22 @@ int main()
 						            }
 						            }
 						            break;                                                                                                                                                                                                    
+        case 3:
+                                    cout << "\n1.Search from Set 1 \n2.Search from Set 2\n>>";
+						            cin >> ch;
+						            cout << "\nEnter element to Search: ";
+						            cin >> data;
+						            switch (ch)
+						            {
+						            case 1:
+						            {
+						                S1.search(data);
+						                break;
+						            }
+						            case 2:
+						            {
+						                S2.search(data);
+						                break;
+						            }
+						            }
+						            break;
