@@ -267,3 +267,17 @@ int main()
 						            }
 						            }
 						            break;
+        case 4:
+                                    cout << "\n1.Count from Set 1 \n2.Count from Set 2\n>>";
+						            cin >> ch;
+                                    switch (ch)
+						            {
+						            case 1:
+						            {
+						                S1.count();
+						                break;
+						            }
+						            case 2:
+						            {
+						                S2.count();
+ 
