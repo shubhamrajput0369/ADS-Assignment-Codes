@@ -61,3 +61,21 @@ public:	sets()
 						return;
 					}
 
+					else
+					{
+						node *cn=hn->next;
+						temp=hn;
+						while(cn!=NULL)
+						{
+
+							if(cn->data==x)
+							{
+								temp->next=cn->next;
+								delete cn;
+							}
+						temp=cn;
+						cn=cn->next;
+						}
+					}
+		}
+
