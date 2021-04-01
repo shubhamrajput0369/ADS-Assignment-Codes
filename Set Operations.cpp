@@ -219,3 +219,32 @@ int main()
 								S1.insert(value);
 								break;
 
+						case 2:
+
+								cout << "\nEnter data to Insert: ";
+								cin>>value;
+								S2.insert(value);
+								break;
+						}
+		            break;
+
+		 case 2:
+
+						            cout << "\n1.Delete from Set 1 \n2.Search from Set 2\n>>";
+						            cin >> ch;
+						            cout << "\nEnter element to delete: ";
+						            cin >> data;
+						            switch (ch)
+						            {
+						            case 1:
+						            {
+						                S1.Del(data);
+						                break;
+						            }
+						            case 2:
+						            {
+						                S2.Del(data);
+						                break;
+						            }
+						            }
+						            break;                                                                                                                                                                                                    
