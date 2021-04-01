@@ -99,3 +99,40 @@ public:	sets()
 				}
 				cout<<"\nThe element is not present";
 			}
+        void union_set(sets s1,sets s2)
+		{
+			node *cn1=s1.hn;
+			node *cn2=s2.hn;
+			node*cn=hn;
+
+			while(cn1!=NULL)
+			{
+				insert(cn1->data);
+				cn1=cn1->next;
+			}
+
+				int flag;
+
+			while(cn2!=NULL)
+			{
+				cn=hn;
+				flag=0;
+					while(cn!=NULL)
+					{
+						if(cn->data==cn2->data)
+						{
+							flag++;
+							break;
+						}
+						cn=cn->next;
+					}
+
+				if(flag==0)
+				{
+					insert(cn2->data);
+				}
+
+				cn2=cn2->next;
+			}
+		}
+
