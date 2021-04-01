@@ -79,3 +79,23 @@ public:	sets()
 					}
 		}
 
+			void search(int x)
+			{
+				if(hn==NULL)
+				{
+					cout<<"\nLIST EMPTY";
+					return;
+				}
+
+				node *cn=hn;
+				while(cn!=NULL)
+				{
+					if(cn->data==x)
+					{
+					cout<<"\nThe element is present";
+					return;
+					}
+					cn=cn->next;
+				}
+				cout<<"\nThe element is not present";
+			}
