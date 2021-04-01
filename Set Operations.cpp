@@ -286,3 +286,13 @@ int main()
 						            }
 						            break;
  
+        case 5:
+                                    cout << "\n1.Display from Set 1 \n2.Display from Set 2\n>>";
+						            cin >> ch;
+						            switch (ch)
+						            {
+						            case 1:
+						            {
+						                S1.display();
+						                break;
+						            }
