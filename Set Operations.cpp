@@ -307,3 +307,14 @@ int main()
                                     cout << "\nUnion is\n>>";
 						            S3.union_set(S1,S2);
 						            S3.display();
+        case 7:
+                                    cout << "\nIntersection is\n>>";
+						            S3.intersection_set(S1,S2);
+						            S3.display();
+        default:
+                                    cout<<"Enter valid choice! \n";
+		}
+	}while(choice!=8);
+
+	return 0;
+}
