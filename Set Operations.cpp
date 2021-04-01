@@ -49,3 +49,15 @@ public:	sets()
 				}
 		}
 
+		void Del(int x)
+		{
+			node*temp;
+					if(hn->data==x)
+					{
+						temp=hn;
+						hn=hn->next;
+						delete temp;
+						cout<<"\nThe element "<<x<<" is deleted";
+						return;
+					}
+
