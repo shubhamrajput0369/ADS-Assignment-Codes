@@ -180,3 +180,13 @@ public:	sets()
 			cout<<"Count is "<<n<<"\n";
 		}
 };
+
+
+
+
+int main()
+{
+	sets S1,S2,S3,S4,d;
+	int choice,ch,data;
+	int value;
+	do
