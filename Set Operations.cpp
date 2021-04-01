@@ -190,3 +190,15 @@ int main()
 	int choice,ch,data;
 	int value;
 	do
+	{
+		cout<<"\n\t\t****************MENU***************";
+		cout<<"\n\t1.INSERT ELEMENT";
+		cout<<"\n\t2.DELELTE ELEMENT";
+		cout<<"\n\t3.SEARCH ELEMENT";
+		cout<<"\n\t4.COUNT";
+		cout<<"\n\t5.DISPLAY SET";
+		cout<<"\n\t6.UNION";
+		cout<<"\n\t7.INTERSECTION";
+		cout<<"\n\t8.EXIT";
+		cout<<"\nEnter your choice:";
+		cin>>choice;
