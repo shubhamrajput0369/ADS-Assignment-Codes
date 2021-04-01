@@ -303,3 +303,7 @@ int main()
 						            }
 						            }
 						            break;
+        case 6:
+                                    cout << "\nUnion is\n>>";
+						            S3.union_set(S1,S2);
+						            S3.display();
