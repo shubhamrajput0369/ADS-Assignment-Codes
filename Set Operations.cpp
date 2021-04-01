@@ -19,3 +19,17 @@ public:	sets()
 			nn->data=x;
 			nn->next=NULL;
 
+			if(hn==NULL)
+			{
+				hn=nn;
+			}
+
+			else
+			{
+				node *cn=hn;
+				while(cn->next!=NULL)
+					cn=cn->next;
+				cn->next=nn;
+			}
+		}
+
