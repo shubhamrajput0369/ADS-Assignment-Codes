@@ -136,3 +136,47 @@ public:	sets()
 			}
 		}
 
+		void intersection_set(sets s1,sets s2)
+				{
+					node *cn1=s1.hn;
+					node *cn2=s2.hn;
+
+
+
+					int flag;
+
+					while(cn2!=NULL)
+					{
+						cn1=s1.hn;
+						flag=0;
+							while(cn1!=NULL)
+							{
+								if(cn1->data==cn2->data)
+								{
+									flag++;
+									break;
+								}
+								cn1=cn1->next;
+							}
+
+						if(flag==1)
+						{
+							insert(cn2->data);
+						}
+
+						cn2=cn2->next;
+					}
+				}
+
+		void count()
+		{
+			int n=0;
+			node *cn=hn;
+			while(cn!=NULL)
+			{
+				n++;
+				cn=cn->next;
+			}
+			cout<<"Count is "<<n<<"\n";
+		}
+};
