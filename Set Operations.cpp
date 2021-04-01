@@ -202,3 +202,8 @@ int main()
 		cout<<"\n\t8.EXIT";
 		cout<<"\nEnter your choice:";
 		cin>>choice;
+
+		switch(choice)
+		{
+		case 1:
+
