@@ -77,3 +77,4 @@ int main()
 {
 	prims obj;
 	obj.init();
+	obj.
