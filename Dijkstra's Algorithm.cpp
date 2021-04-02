@@ -57,3 +57,15 @@ public:
 					min=lowcost[j];
 					vertex=j;
 				}
+			}
+
+			visited[vertex]=1;
+			for (int j=1;j<=V;++j)
+			{
+				if(!visited[j] && (G[vertex][j]+lowcost[vertex])<lowcost[j])
+				{
+					lowcost[j]=G[vertex][j]+lowcost[vertex];
+					from[j]=vertex;
+				}
+			}
+			cout<<"\nVertex:"<<vertex<<"\ncost:"<<lowcost[vertex];
