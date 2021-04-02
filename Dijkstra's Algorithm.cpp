@@ -37,3 +37,8 @@ public:
 		int lowcost[MAX];
 		int from[MAX];
 		int visited[MAX];
+		cout<<"\n Minimum spanning tree ";
+		int mincost=0;
+		for(int i=1;i<=V;i++)
+		{
+			lowcost[i]=G[1][i];
