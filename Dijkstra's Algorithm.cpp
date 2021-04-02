@@ -8,3 +8,12 @@ using namespace std;
 
 class prims
 {
+
+public:
+	int V,E;
+	int G[MAX][MAX];
+	void init()
+	{
+		int cost,i,j;
+		cout<<"\n Enter number of vertex ";
+		cin>>V;
