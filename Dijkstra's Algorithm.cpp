@@ -50,3 +50,7 @@ public:
 		{
 			int vertex;
 			min=INF;
+			for (int j=2;j<=V;++j)
+			{
+				if(!visited[j]&&(min>lowcost[j]))
+				{
