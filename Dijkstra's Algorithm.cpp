@@ -79,3 +79,4 @@ int main()
 	obj.init();
 	obj.primsfunc();
 	return 0;
+}
