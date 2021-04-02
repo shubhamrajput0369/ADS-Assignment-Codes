@@ -42,3 +42,8 @@ public:
 		for(int i=1;i<=V;i++)
 		{
 			lowcost[i]=G[1][i];
+			from[i]=1;
+			visited[i]=0;
+		}
+		visited[1]=1;
+		for(int i=1;i<V;++i)
