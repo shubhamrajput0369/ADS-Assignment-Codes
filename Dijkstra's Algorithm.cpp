@@ -54,3 +54,6 @@ public:
 			{
 				if(!visited[j]&&(min>lowcost[j]))
 				{
+					min=lowcost[j];
+					vertex=j;
+				}
