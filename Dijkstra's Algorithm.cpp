@@ -75,4 +75,5 @@ public:
 };
 int main()
 {
-	prims
+	prims obj;
+	obj.init();
