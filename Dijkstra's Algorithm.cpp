@@ -47,3 +47,6 @@ public:
 		}
 		visited[1]=1;
 		for(int i=1;i<V;++i)
+		{
+			int vertex;
+			min=INF;
