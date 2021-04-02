@@ -32,3 +32,8 @@ public:
 		}
 	}
 	void primsfunc()
+	{
+		int min;
+		int lowcost[MAX];
+		int from[MAX];
+		int visited[MAX];
