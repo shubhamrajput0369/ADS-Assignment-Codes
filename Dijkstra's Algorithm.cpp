@@ -70,3 +70,6 @@ public:
 			}
 			cout<<"\nVertex:"<<vertex<<"\ncost:"<<lowcost[vertex];
 		}
+
+	}
+};
