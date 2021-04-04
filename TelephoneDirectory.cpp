@@ -1,4 +1,4 @@
-// Author: Shubham Bhagwansing
+// Author: Shubham Bhagwansing Ra
 
 #include<iostream>
 #include<string.h>
