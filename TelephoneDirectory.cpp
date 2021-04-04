@@ -1,4 +1,4 @@
-// Author: Shubham Bh
+// Author: Shubham Bhag
 
 #include<iostream>
 #include<string.h>
