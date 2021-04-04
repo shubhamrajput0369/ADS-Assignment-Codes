@@ -1,4 +1,4 @@
-// Au
+// Aut
 
 #include<iostream>
 #include<string.h>
