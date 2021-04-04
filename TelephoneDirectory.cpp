@@ -1,4 +1,4 @@
-// Auth
+// Autho
 
 #include<iostream>
 #include<string.h>
