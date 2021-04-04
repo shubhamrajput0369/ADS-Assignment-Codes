@@ -1,4 +1,4 @@
-// Author:
+// Author: S
 
 #include<iostream>
 #include<string.h>
