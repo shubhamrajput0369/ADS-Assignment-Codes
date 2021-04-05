@@ -32,3 +32,4 @@ int main()
         cout<<"Enter Your City";
         cin>>city;
         if(!city.compare("mumbai") || !city.compare("jaypur") || !city.compare("delhi") || !city.compare("chennai"))
+            throw(city);
