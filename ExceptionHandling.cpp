@@ -41,3 +41,6 @@ int main()
             throw(ans);
     }
     catch(int)
+    {
+        cout<<"Your age is not in a required range";
+    }
