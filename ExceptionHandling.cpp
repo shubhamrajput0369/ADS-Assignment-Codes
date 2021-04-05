@@ -25,3 +25,8 @@ int main()
 
         cout<<"Enter Your Income";
         cin>>income;
+        if(income<50000 || income>100000)
+            throw(income);
+
+
+        cout<<"Enter Your City";
