@@ -33,3 +33,7 @@ int main()
         cin>>city;
         if(!city.compare("mumbai") || !city.compare("jaypur") || !city.compare("delhi") || !city.compare("chennai"))
             throw(city);
+
+
+        cout<<"Can you applied any scholarship scheme(y/n)";
+        cin>>ans;
