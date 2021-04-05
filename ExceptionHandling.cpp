@@ -19,3 +19,5 @@ int main()
     {
         cout<<"Enter Your Age";
         cin>>age;
+        if(age<18 || age>50)
+            throw(age);
