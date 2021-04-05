@@ -17,3 +17,5 @@ int main()
 
     try
     {
+        cout<<"Enter Your Age";
+        cin>>age;
