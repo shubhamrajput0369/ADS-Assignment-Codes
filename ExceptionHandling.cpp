@@ -21,3 +21,7 @@ int main()
         cin>>age;
         if(age<18 || age>50)
             throw(age);
+
+
+        cout<<"Enter Your Income";
+        cin>>income;
