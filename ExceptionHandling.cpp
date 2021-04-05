@@ -39,3 +39,5 @@ int main()
         cin>>ans;
         if(ans!='y')
             throw(ans);
+    }
+    catch(int)
