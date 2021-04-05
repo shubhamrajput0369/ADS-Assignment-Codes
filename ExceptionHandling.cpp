@@ -8,3 +8,7 @@ using namespace std;
 
 int main()
 {
+    Private:
+
+    int age;
+    float income;
