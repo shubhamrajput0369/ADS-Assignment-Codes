@@ -12,3 +12,5 @@ int main()
 
     int age;
     float income;
+    string city;
+    char ans;
