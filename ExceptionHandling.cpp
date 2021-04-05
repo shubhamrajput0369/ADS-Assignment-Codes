@@ -14,3 +14,6 @@ int main()
     float income;
     string city;
     char ans;
+
+    try
+    {
