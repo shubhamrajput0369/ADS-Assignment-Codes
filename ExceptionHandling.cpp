@@ -44,3 +44,17 @@ int main()
     {
         cout<<"Your age is not in a required range";
     }
+    catch(float)
+    {
+        cout<<"Your Income is not in a required range";
+    }
+    catch(string)
+    {
+        cout<<"You are not belongs from expected city";
+    }
+    catch(char)
+    {
+        cout<<"You need to apply at least one scheme for scholarship to registration";
+    }
+    return 0;
+}
