@@ -37,3 +37,5 @@ int main()
 
         cout<<"Can you applied any scholarship scheme(y/n)";
         cin>>ans;
+        if(ans!='y')
+            throw(ans);
