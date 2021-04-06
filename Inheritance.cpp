@@ -78,3 +78,5 @@ class Biodata: public Personal, Academic, Professional
 
         Professional::getData();
     }
+    void putData()
+    {
