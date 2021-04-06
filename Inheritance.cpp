@@ -80,3 +80,5 @@ class Biodata: public Personal, Academic, Professional
     }
     void putData()
     {
+        Personal::putData();
+        Academic::putData();
