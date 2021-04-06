@@ -85,3 +85,5 @@ class Biodata: public Personal, Academic, Professional
         Professional::putData();
     }
 };
+int main()
+{
