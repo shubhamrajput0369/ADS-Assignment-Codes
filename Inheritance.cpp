@@ -33,3 +33,11 @@ class Academic
     float per;
 
     public:
+
+    void getData()
+    {
+        cout<<"\nEnter the roll number of student ";
+        cin>>roll;
+        cout<<"\nEnter the marks of the student ";
+        cin>>per;
+    }
