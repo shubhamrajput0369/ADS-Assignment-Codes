@@ -32,3 +32,4 @@ class Academic
     int roll;
     float per;
 
+    public:
