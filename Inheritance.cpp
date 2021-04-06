@@ -49,3 +49,7 @@ class Academic
 };
 class Professional
 {
+    private:
+    char branch[30];
+    char field[30];
+
