@@ -58,3 +58,6 @@ class Professional
     {
         cout<<"\nEnter the branch name of student ";
         cin>>branch;
+        cout<<"\nEnter the study field of the student ";
+        cin>>field;
+    }
