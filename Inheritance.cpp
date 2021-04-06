@@ -69,3 +69,5 @@ class Professional
 };
 class Biodata: public Personal, Academic, Professional
 {
+
+    public:
