@@ -71,3 +71,5 @@ class Biodata: public Personal, Academic, Professional
 {
 
     public:
+    void getData()
+    {
