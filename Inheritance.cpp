@@ -74,3 +74,4 @@ class Biodata: public Personal, Academic, Professional
     void getData()
     {
         Personal::getData();
+        Academic::getData();
