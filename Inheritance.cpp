@@ -41,3 +41,11 @@ class Academic
         cout<<"\nEnter the marks of the student ";
         cin>>per;
     }
+    void putData()
+    {
+        cout<<"\nRoll Number :- "<<roll;
+        cout<<"\nMarks of Student :- "<<per;
+    }
+};
+class Professional
+{
