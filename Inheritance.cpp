@@ -61,3 +61,11 @@ class Professional
         cout<<"\nEnter the study field of the student ";
         cin>>field;
     }
+    void putData()
+    {
+        cout<<"\nBranch of student :- "<<branch;
+        cout<<"\nField of Study :- "<<field;
+    }
+};
+class Biodata: public Personal, Academic, Professional
+{
