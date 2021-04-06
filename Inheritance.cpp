@@ -10,3 +10,9 @@ class Personal
     char name[30];
     float marks;
     int age;
+
+    public:
+    void getData()
+    {
+        cout<<"\nEnter the name of student ";
+        cin>>name;
