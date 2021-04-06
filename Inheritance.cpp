@@ -53,3 +53,7 @@ class Professional
     char branch[30];
     char field[30];
 
+    public:
+    void getData()
+    {
+        cout<<"\nEnter the branch name of student ";
