@@ -7,3 +7,6 @@ using namespace std;
 class Personal
 {
     private:
+    char name[30];
+    float marks;
+    int age;
