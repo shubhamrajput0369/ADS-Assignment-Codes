@@ -87,3 +87,9 @@ class Biodata: public Personal, Academic, Professional
 };
 int main()
 {
+    Biodata b;
+    cout<<"*****INFORMATION of STUDENT*****";
+    b.getData();
+    b.putData();
+    return 0;
+}
