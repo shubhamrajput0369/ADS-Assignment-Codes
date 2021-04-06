@@ -82,3 +82,6 @@ class Biodata: public Personal, Academic, Professional
     {
         Personal::putData();
         Academic::putData();
+        Professional::putData();
+    }
+};
