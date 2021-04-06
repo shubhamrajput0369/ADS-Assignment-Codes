@@ -57,3 +57,4 @@ class Professional
     void getData()
     {
         cout<<"\nEnter the branch name of student ";
+        cin>>branch;
