@@ -54,3 +54,5 @@ int main()
 
     bubble_sort<float>(arr2, 5);
 
+    cout<<"\nThe Float Array After Sorting :";
+    display(arr2, 5);
