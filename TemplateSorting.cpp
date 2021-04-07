@@ -42,3 +42,5 @@ int main()
     cout<<"\t\t***** BUBBLE SORT *****";
 
     cout<<"\nThe Integer Array Before Sorting :";
+    display(arr, 10);
+
