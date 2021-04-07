@@ -25,3 +25,8 @@ void bubble_sort(T a[], int n)
 
 template<class S>
 void display(S arr[], int n)
+{
+    for(int i=0;i<n;i++)
+    {
+        cout<<arr[i];
+        cout<<" ";
