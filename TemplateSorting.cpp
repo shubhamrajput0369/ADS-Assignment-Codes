@@ -20,3 +20,6 @@ void bubble_sort(T a[], int n)
                 a[j] = temp;
             }
         }
+    }
+}
+
