@@ -23,3 +23,5 @@ void bubble_sort(T a[], int n)
     }
 }
 
+template<class S>
+void display(S arr[], int n)
