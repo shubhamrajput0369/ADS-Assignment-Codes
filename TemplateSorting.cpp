@@ -38,3 +38,7 @@ int main()
 
     int arr[10] = {56, 34, 78, 23, 90, 12, 34, 23, 37, 92};
     float arr2[5] = {1.8, 3.6, 8.5, 9.3, 2.1};
+
+    cout<<"\t\t***** BUBBLE SORT *****";
+
+    cout<<"\nThe Integer Array Before Sorting :";
