@@ -49,3 +49,8 @@ int main()
     cout<<"\nThe Integer Array After Sorting :";
     display(arr, 10);
 
+    cout<<"\n\nThe Float Array Before Sorting :";
+    display(arr2, 5);
+
+    bubble_sort<float>(arr2, 5);
+
