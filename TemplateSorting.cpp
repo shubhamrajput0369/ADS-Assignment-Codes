@@ -56,3 +56,5 @@ int main()
 
     cout<<"\nThe Float Array After Sorting :";
     display(arr2, 5);
+
+    cout<<"\n";
