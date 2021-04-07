@@ -44,3 +44,8 @@ int main()
     cout<<"\nThe Integer Array Before Sorting :";
     display(arr, 10);
 
+    bubble_sort<int>(arr, 10);
+
+    cout<<"\nThe Integer Array After Sorting :";
+    display(arr, 10);
+
