@@ -30,3 +30,5 @@ void display(S arr[], int n)
     {
         cout<<arr[i];
         cout<<" ";
+    }
+}
