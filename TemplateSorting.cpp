@@ -16,3 +16,4 @@ void bubble_sort(T a[], int n)
             if(a[j]>a[j+1])
             {
                 temp = a[j+1];
+                a[j+1] =  a[j];
