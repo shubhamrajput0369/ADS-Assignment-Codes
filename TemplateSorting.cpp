@@ -13,4 +13,6 @@ void bubble_sort(T a[], int n)
     {
         for(int j=0;j<n-i-1;j++)
         {
-
+            if(a[j]>a[j+1])
+            {
+                temp = a[j+1];
