@@ -33,3 +33,14 @@ class Vector
         cout<<"}";
     }
  
+   void scalar_mult()
+    {
+        T a;
+
+        cout<<"\nEnter the value that you want to perform scalar multiplication";
+        cin>>a;
+
+        for(int i=0;i<n;i++)
+        {
+            arr[i]*=a;
+        }
