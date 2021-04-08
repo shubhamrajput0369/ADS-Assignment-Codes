@@ -127,3 +127,7 @@ int main()
                     v4.scalar_mult();
                     v4.modify();
                     break;
+                }
+            default: cout<<"Invalid Input";
+
+        }
