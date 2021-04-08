@@ -47,3 +47,14 @@ class Vector
         cout<<"Elements After Multiplication";
         display();
     }
+    void modify()
+    {
+        T m, num;
+        int flag=0;
+
+        cout<<"Enter the value that you want to modify";
+        cin>>m;
+
+        for(int i=0;i<n;i++)
+        {
+
