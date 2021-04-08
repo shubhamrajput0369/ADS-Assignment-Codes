@@ -8,3 +8,7 @@ using namespace std;
 template<class T>
 class Vector
 {
+
+    private:
+    T arr[100];
+    int n;
