@@ -76,3 +76,54 @@ class Vector
             }
     }
 };
+int main()
+{
+    int ch;
+    char choice;
+
+    Vector <int>v1;
+    Vector <float>v2;
+    Vector <long>v3;
+    Vector <double>v4;
+
+    do
+    {
+        cout<<"*******MENU********";
+        cout<<"\n1. Integer Value\n2. Float Value\n3. Long Value\n4. Double Value";
+        cout<<"\nEnter the value to perform operation";
+        cin>>ch;
+
+        switch(ch)
+        {
+            case 1:
+                {
+                    v1.accept();
+                    v1.display();
+                    v1.scalar_mult();
+                    v1.modify();
+                    break;
+                }
+
+            case 2:
+                {
+                    v2.accept();
+                    v2.display();
+                    v2.scalar_mult();
+                    v2.modify();
+                    break;
+                }
+            case 3:
+                {
+                    v3.accept();
+                    v3.display();
+                    v3.scalar_mult();
+                    v3.modify();
+                    break;
+                }
+            case 4:
+                {
+                    v4.accept();
+                    v4.display();
+                    v4.scalar_mult();
+                    v4.modify();
+                    break;
