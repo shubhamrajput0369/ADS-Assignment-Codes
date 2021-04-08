@@ -134,4 +134,7 @@ int main()
         cout<<"Do you want to continue(y/n)";
         cin>>choice;
 
-    }while
+    }while(choice=='y' || choice=='Y');
+
+    return 0;
+}
