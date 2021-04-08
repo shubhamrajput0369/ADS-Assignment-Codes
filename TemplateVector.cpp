@@ -44,3 +44,6 @@ class Vector
         {
             arr[i]*=a;
         }
+        cout<<"Elements After Multiplication";
+        display();
+    }
