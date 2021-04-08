@@ -58,3 +58,21 @@ class Vector
         for(int i=0;i<n;i++)
         {
 
+            if(arr[i]==m)
+            {
+                cout<<"Enter new value";
+                cin>>num;
+
+                arr[i]=num;
+                flag++;
+                cout<<"After Modification Elements are";
+                display();
+            }
+        }
+
+            if(flag==0)
+            {
+                cout<<"Element is not found";
+            }
+    }
+};
