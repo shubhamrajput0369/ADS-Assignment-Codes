@@ -24,3 +24,6 @@ int main()
     add<float>(x,y);
     add<long>(g,h);
     add<double>(c,d);
+
+    return 0;
+}
