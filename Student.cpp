@@ -43,3 +43,10 @@ int main()
     {
         s[i].getData();
     }
+    for(int i=0;i<2;i++)
+    {
+        s[i].putData();
+    }
+    Student::displayTotal();
+    return 0;
+}
