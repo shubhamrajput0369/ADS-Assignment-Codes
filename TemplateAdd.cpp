@@ -15,3 +15,5 @@ void add(T a, T b)
 int main()
 {
     int a=7, b=7;
+    float x=5.5, y=7.7;
+    long g=1234567, h=12348;
