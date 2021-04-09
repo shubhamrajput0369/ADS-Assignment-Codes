@@ -7,3 +7,6 @@ using namespace std;
 class Student
 {
     private:
+        char name[30];
+        int age,rl;
+        static int total;
