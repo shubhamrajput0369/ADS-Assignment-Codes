@@ -22,3 +22,4 @@ int main()
     cout<<"*****ADDITION USING TEMPLATE FUNCTION*****\n";
     add<int>(a,b);
     add<float>(x,y);
+    add<long>(g,h);
