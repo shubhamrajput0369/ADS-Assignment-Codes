@@ -23,3 +23,12 @@ class Student
             cout<<"Enter Student Age:-\t";
             cin>>age;
         }
+        void putData()
+        {
+            cout<<"\n\nStudent Roll Number:\t"<<rl<<"\nStudent Name:\t\t"<<name<<"\nStudent Age:\t\t"<<age;
+        }
+        static void displayTotal()
+        {
+            cout<<"\n\nTotal Number of Students:\t"<<total<<"\n\n";
+        }
+};
