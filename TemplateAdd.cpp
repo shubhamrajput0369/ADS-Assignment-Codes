@@ -11,3 +11,7 @@ void add(T a, T b)
     c = a+b;
     cout<<"\nAddition is :- "<<c;
 }
+
+int main()
+{
+    int a=7, b=7;
