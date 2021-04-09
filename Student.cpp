@@ -32,3 +32,10 @@ class Student
             cout<<"\n\nTotal Number of Students:\t"<<total<<"\n\n";
         }
 };
+
+int Student::total=0;
+
+int main()
+{
+    Student s[2];
+
