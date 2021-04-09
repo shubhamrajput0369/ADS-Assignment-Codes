@@ -20,3 +20,4 @@ int main()
     double c=5.555555555, d=7.7777777777;
 
     cout<<"*****ADDITION USING TEMPLATE FUNCTION*****\n";
+    add<int>(a,b);
