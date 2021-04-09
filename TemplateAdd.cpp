@@ -23,3 +23,4 @@ int main()
     add<int>(a,b);
     add<float>(x,y);
     add<long>(g,h);
+    add<double>(c,d);
