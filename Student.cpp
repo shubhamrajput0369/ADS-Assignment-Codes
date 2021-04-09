@@ -10,3 +10,9 @@ class Student
         char name[30];
         int age,rl;
         static int total;
+
+    public:
+        void getData()
+        {
+            total++;
+            rl=total;
