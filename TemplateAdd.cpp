@@ -3,3 +3,6 @@
 
 #include<iostream>
 using namespace std;
+
+template<class T>
+void add(T a, T b)
