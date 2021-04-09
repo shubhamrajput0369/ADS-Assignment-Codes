@@ -16,3 +16,10 @@ class Student
         {
             total++;
             rl=total;
+
+            cout<<"\nEnter Student Name:-\t";
+            cin>>name;
+
+            cout<<"Enter Student Age:-\t";
+            cin>>age;
+        }
