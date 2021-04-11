@@ -41,3 +41,5 @@ int main()
         cout<<"\nPopped Element of stack :"<<mystack.top();
         
         mystack.pop();
+        cout<<"\nElement After Popping First Element";
+
