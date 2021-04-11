@@ -43,3 +43,5 @@ int main()
         mystack.pop();
         cout<<"\nElement After Popping First Element";
 
+        while(!mystack.empty())
+        {
