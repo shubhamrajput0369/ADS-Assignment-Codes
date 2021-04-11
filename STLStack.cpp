@@ -24,3 +24,7 @@ int main()
         cout<<"\nAdding Element into stack : "<<mystack.top();
 
         mystack.push(30);
+        cout<<"\nAdding Element into stack : "<<mystack.top();
+
+        mystack.push(40);
+        cout<<"\nAdding Element into stack : "<<mystack.top();
