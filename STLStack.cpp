@@ -32,3 +32,6 @@ int main()
         mystack.push(50);
 
         cout<<"\nAdding Element into stack : "<<mystack.top();
+
+        cout<<"\nSize of stack is : "<<mystack.size();
+        if(!mystack.empty())
