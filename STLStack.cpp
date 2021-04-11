@@ -45,3 +45,5 @@ int main()
 
         while(!mystack.empty())
         {
+            cout<<" "<<mystack.top();
+            mystack.pop();
