@@ -28,3 +28,5 @@ int main()
 
         mystack.push(40);
         cout<<"\nAdding Element into stack : "<<mystack.top();
+
+        mystack.push(50);
