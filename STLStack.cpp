@@ -20,3 +20,6 @@ int main()
         mystack.push(10);
         cout<<"\nAdding Element into stack : "<<mystack.top();
 
+        mystack.push(20);
+        cout<<"\nAdding Element into stack : "<<mystack.top();
+
