@@ -38,3 +38,4 @@ int main()
         {
             cout<<"\nStack is not empty";
         }
+        cout<<"\nPopped Element of stack :"<<mystack.top();
