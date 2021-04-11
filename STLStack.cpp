@@ -3,3 +3,5 @@
 
 #include<iostream>
 #include<stack>
+#include<iterator>
+#include<string>
