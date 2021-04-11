@@ -36,3 +36,5 @@ int main()
         cout<<"\nSize of stack is : "<<mystack.size();
         if(!mystack.empty())
         {
+            cout<<"\nStack is not empty";
+        }
