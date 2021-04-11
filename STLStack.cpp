@@ -30,3 +30,5 @@ int main()
         cout<<"\nAdding Element into stack : "<<mystack.top();
 
         mystack.push(50);
+
+        cout<<"\nAdding Element into stack : "<<mystack.top();
