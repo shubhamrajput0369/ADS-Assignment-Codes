@@ -35,3 +35,4 @@ int main()
 
         cout<<"\nSize of stack is : "<<mystack.size();
         if(!mystack.empty())
+        {
