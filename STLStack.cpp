@@ -13,3 +13,10 @@ int main()
 {
     stack<int>mystack;
 
+        if(mystack.empty())
+        {
+            cout<<"\nStack is Empty";
+        }
+        mystack.push(10);
+        cout<<"\nAdding Element into stack : "<<mystack.top();
+
