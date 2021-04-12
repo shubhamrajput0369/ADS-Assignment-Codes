@@ -79,3 +79,16 @@ int main()
                 cout<<"Deleted Element is :\t"<<n;
                 break;
             }
+            case 6 :
+            {
+
+                cout<<"Queue is :\t";
+                displayqueue(q);
+                break;
+            }
+            case 7 :
+            {
+                n=s.back();
+                cout<<"Last Element of Stack is :\t"<<n;
+                break;
+            }
