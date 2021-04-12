@@ -41,3 +41,4 @@ int main()
     {
         cout<<"\n**********MENU**********\n1. PUSH Element into stack\n2. POP Element from stack\n3. DISPLAY element of STACK\n4. PUSH Element into QUEUE\n5. POP Element from QUEUE\n6. DISPLAY Element of QUEUE\n7. TOP Element of STACK\n8. LAST Element of QUEUE\n";
         cout<<"\nChoose Your Option to Perform Operation";
+        cin>>ch;
