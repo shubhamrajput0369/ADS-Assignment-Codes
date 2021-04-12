@@ -34,3 +34,6 @@ int main()
     int ch, n;
     char ans;
 
+    list<int>s;
+    list<int>q;
+
