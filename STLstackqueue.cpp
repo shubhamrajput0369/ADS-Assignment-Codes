@@ -92,3 +92,11 @@ int main()
                 cout<<"Last Element of Stack is :\t"<<n;
                 break;
             }
+
+            case 8 :
+            {
+                n=q.back();
+                cout<<"Last Element of Queue is :\t"<<n;
+                break;
+            }
+        }
