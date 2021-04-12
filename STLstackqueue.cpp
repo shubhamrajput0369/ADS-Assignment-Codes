@@ -47,3 +47,5 @@ int main()
         {
             case 1 :
             {
+                cout<<"\nEnter Element";
+                cin>>n;
