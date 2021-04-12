@@ -17,3 +17,9 @@ void displaystack(list<int>a)
     {
         cout<<*i<<" ";
     }
+}
+void displayqueue(list<int>a)
+{
+    int c;
+    list<int>::iterator i;
+
