@@ -100,3 +100,9 @@ int main()
                 break;
             }
         }
+        cout<<"\nDo you want to continue";
+        cin>>ans;
+    }while(ans=='Y'||ans=='y');
+
+    return 0;
+}
