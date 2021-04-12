@@ -28,3 +28,9 @@ void displayqueue(list<int>a)
         cout<<*i<<" ";
     }
 }
+
+int main()
+{
+    int ch, n;
+    char ans;
+
