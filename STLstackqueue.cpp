@@ -7,3 +7,8 @@
 #include<list>
 
 using namespace std;
+
+void displaystack(list<int>a)
+{
+    int c;
+    list<int>::iterator i;
