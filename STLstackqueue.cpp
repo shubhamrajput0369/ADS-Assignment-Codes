@@ -56,3 +56,5 @@ int main()
             {
                 n=s.back();
                 cout<<"Popped Element is :\t"<<n;
+                s.pop_back();
+                break;
