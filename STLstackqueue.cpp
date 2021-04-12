@@ -45,3 +45,5 @@ int main()
 
         switch(ch)
         {
+            case 1 :
+            {
