@@ -65,3 +65,17 @@ int main()
                 displaystack(s);
                 break;
             }
+            case 4 :
+            {
+                cout<<"\nEnter Element";
+                cin>>n;
+                q.push_back(n);
+                break;
+            }
+            case 5 :
+            {
+                n=q.front();
+                q.pop_front();
+                cout<<"Deleted Element is :\t"<<n;
+                break;
+            }
