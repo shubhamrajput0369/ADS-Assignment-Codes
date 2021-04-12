@@ -49,3 +49,6 @@ int main()
             {
                 cout<<"\nEnter Element";
                 cin>>n;
+                s.push_back(n);
+                break;
+            }
