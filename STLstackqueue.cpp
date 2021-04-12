@@ -12,3 +12,8 @@ void displaystack(list<int>a)
 {
     int c;
     list<int>::iterator i;
+
+    for(i=a.begin();i!=a.end();i++)
+    {
+        cout<<*i<<" ";
+    }
