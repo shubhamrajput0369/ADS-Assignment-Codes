@@ -28,3 +28,6 @@ class STLDeque
     {
         cout<<"\nDelete the Value from Front";
         val = l.front();
+        cout<<"\nDeleted Value is : "<<val;
+        l.pop_front();
+    }
