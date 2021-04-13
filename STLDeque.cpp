@@ -57,3 +57,6 @@ int main()
     STLDeque D;
     do
     {
+        cout<<"\n**********MENU**********\n1. Insert at Front\n2. Insert at Rear \n3. Delete from Front\n4. Delete from Rear\n5. Display \n6. Exit";
+        cout<<"\nChoose an Option for Performing Operation";
+        cin>>ch;
