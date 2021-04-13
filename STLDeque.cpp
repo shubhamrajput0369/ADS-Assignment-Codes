@@ -49,3 +49,7 @@ class STLDeque
         }
     }
 };
+
+int main()
+{
+    int ch;
