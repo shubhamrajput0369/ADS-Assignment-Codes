@@ -35,3 +35,4 @@ class STLDeque
     {
         cout<<"\nDelete the Value from Rear";
         val = l.back();
+        cout<<"\nDeleted Value is : "<<val;
