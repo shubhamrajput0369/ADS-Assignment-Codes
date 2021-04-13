@@ -41,3 +41,6 @@ class STLDeque
     void display()
     {
         list<int>::iterator i;
+
+        cout<<"\nValues are : ";
+        for(i=l.begin();i!=l.end();i++)
