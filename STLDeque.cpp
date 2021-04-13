@@ -10,3 +10,8 @@ class STLDeque
     int val;
 
     public:
+    void insert_front()
+    {
+        cout<<"\nInsert the Value at Front";
+        cout<<"\nEnter Number";
+        cin>>val;
