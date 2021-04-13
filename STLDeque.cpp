@@ -38,3 +38,6 @@ class STLDeque
         cout<<"\nDeleted Value is : "<<val;
         l.pop_back();
     }
+    void display()
+    {
+        list<int>::iterator i;
