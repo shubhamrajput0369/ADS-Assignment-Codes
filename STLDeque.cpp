@@ -31,3 +31,7 @@ class STLDeque
         cout<<"\nDeleted Value is : "<<val;
         l.pop_front();
     }
+    void delete_rear()
+    {
+        cout<<"\nDelete the Value from Rear";
+        val = l.back();
