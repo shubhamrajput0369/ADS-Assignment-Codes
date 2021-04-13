@@ -68,3 +68,6 @@ int main()
 
             case 2:D.insert_rear();
                     break;
+
+            case 3:D.delete_front();
+                    break;
