@@ -24,3 +24,7 @@ class STLDeque
         cin>>val;
         l.push_back(val);
     }
+    void delete_front()
+    {
+        cout<<"\nDelete the Value from Front";
+        val = l.front();
