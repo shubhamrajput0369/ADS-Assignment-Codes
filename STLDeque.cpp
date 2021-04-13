@@ -71,3 +71,6 @@ int main()
 
             case 3:D.delete_front();
                     break;
+
+            case 4:D.delete_rear();
+                    break;
