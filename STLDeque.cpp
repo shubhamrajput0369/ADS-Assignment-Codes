@@ -65,3 +65,6 @@ int main()
         {
             case 1:D.insert_front();
                     break;
+
+            case 2:D.insert_rear();
+                    break;
