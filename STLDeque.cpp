@@ -74,3 +74,17 @@ int main()
 
             case 4:D.delete_rear();
                     break;
+
+            case 5:D.display();
+                    break;
+
+            case 6:return 0;
+                    break;
+
+            default: cout<<"\nInvalid Input";
+        }
+        cout<<"\nDo You Want to Continue?";
+        cin>>ans;
+    }while(ans=='Y'||ans=='y');
+return 0;
+}
