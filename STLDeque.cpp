@@ -44,3 +44,8 @@ class STLDeque
 
         cout<<"\nValues are : ";
         for(i=l.begin();i!=l.end();i++)
+        {
+            cout<<*i<<" ";
+        }
+    }
+};
