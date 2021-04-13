@@ -15,3 +15,9 @@ class STLDeque
         cout<<"\nInsert the Value at Front";
         cout<<"\nEnter Number";
         cin>>val;
+        l.push_front(val);
+    }
+    void insert_rear()
+    {
+        cout<<"\nInsert the Value at End";
+        cout<<"\nEnter Number";
