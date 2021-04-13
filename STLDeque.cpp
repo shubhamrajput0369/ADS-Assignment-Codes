@@ -21,3 +21,6 @@ class STLDeque
     {
         cout<<"\nInsert the Value at End";
         cout<<"\nEnter Number";
+        cin>>val;
+        l.push_back(val);
+    }
