@@ -53,3 +53,4 @@ class STLDeque
 int main()
 {
     int ch;
+    char ans;
