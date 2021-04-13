@@ -54,3 +54,6 @@ int main()
 {
     int ch;
     char ans;
+    STLDeque D;
+    do
+    {
