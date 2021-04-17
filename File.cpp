@@ -20,3 +20,6 @@ int main()
 		of<<c;
 		cin>>c;
 	}
+	cout<<"Data written in file successfully!!!!!";
+	of.close();
+	
