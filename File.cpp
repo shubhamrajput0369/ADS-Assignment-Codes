@@ -7,3 +7,7 @@ using namespace std;
 
 int main()
 {
+	char c;
+	
+	ofstream of("file.txt",ios::out);
+	
