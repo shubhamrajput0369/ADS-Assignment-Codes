@@ -35,3 +35,5 @@ int main()
 			
 			cout<<c;
 		}
+	}
+	ifs.close();
