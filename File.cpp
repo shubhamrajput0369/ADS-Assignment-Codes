@@ -11,3 +11,12 @@ int main()
 	
 	ofstream of("file.txt",ios::out);
 	
+
+	cout<<"Enter the contents to write in the file(Enter '#' to stop writing records)";
+	cin>>c;
+	
+	while(c!='#')
+	{
+		of<<c;
+		cin>>c;
+	}
