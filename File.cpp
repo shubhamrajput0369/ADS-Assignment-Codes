@@ -23,3 +23,11 @@ int main()
 	cout<<"Data written in file successfully!!!!!";
 	of.close();
 	
+	ifstream ifs("file.txt",ios::in);
+	
+	cout<<"The contents of file are:";
+	
+	while(ifs)
+	{
+		c = ifs.get();
+		if(c!='#')
