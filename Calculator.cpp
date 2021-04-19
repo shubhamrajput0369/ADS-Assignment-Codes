@@ -23,3 +23,16 @@ class Calculator
     {
         cout<<"*****MENU*****";
         cout<<"\n1. Addition";
+        cout<<"\n2. Substraction";
+        cout<<"\n3. Multication";
+        cout<<"\n4. Divide";
+
+        cout<<"\nChoose an option to perform operation";
+        cin>>ch;
+
+        switch(ch)
+        {
+            case 1:
+            cout<<"Addition is"<<a+b; break;
+
+            case 2:
