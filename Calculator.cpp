@@ -21,3 +21,5 @@ class Calculator
     }
     void display()
     {
+        cout<<"*****MENU*****";
+        cout<<"\n1. Addition";
