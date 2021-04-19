@@ -46,3 +46,13 @@ class Calculator
 
             default:
             cout<<"Please Enter Valid Option!"; break;
+        }
+    }
+};
+int main()
+{
+    Calculator c;
+
+    c.getData();
+    c.display();
+}
