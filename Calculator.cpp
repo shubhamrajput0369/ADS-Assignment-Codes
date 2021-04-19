@@ -40,3 +40,4 @@ class Calculator
 
 
             case 3:
+            cout<<"Multiplication is"
