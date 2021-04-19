@@ -8,3 +8,7 @@ class Calculator
 {
 
     public:
+    int a,b,c,ch;
+
+    public:
+    void getData()
