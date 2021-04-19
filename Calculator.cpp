@@ -45,3 +45,4 @@ class Calculator
             cout<<"Division is"<<a/b; break;
 
             default:
+            cout<<"Please Enter Valid Option!"; break;
