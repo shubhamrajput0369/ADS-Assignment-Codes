@@ -12,3 +12,4 @@ class Calculator
 
     public:
     void getData()
+    {
