@@ -42,3 +42,4 @@ class Calculator
             cout<<"Multiplication is"<<a*b; break;
 
             case 4:
+            cout<<"Division is"
