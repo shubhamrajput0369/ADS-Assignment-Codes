@@ -44,3 +44,4 @@ class Calculator
             case 4:
             cout<<"Division is"<<a/b; break;
 
+            default:
