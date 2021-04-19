@@ -6,3 +6,5 @@ using namespace std;
 
 class Calculator
 {
+
+    public:
