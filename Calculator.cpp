@@ -36,3 +36,4 @@ class Calculator
             cout<<"Addition is"<<a+b; break;
 
             case 2:
+            cout<<"Substraction is"<<a-b; break;
