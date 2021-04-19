@@ -13,3 +13,8 @@ class Calculator
     public:
     void getData()
     {
+        cout<<"Enter First Number";
+        cin>>a;
+
+        cout<<"Enter Second Number";
+        cin>>b;
