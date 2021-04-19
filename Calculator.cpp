@@ -18,3 +18,4 @@ class Calculator
 
         cout<<"Enter Second Number";
         cin>>b;
+    }
