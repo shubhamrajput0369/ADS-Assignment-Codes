@@ -68,3 +68,9 @@ void AVL::postOrder(node *cn)
         cout<<cn->data<<" ";
     }
 }
+
+node* AVL::insert_node(node* root,int value)
+{
+    //cout<<"\n IN INSERT FUNCTION!!!";
+    if(root==NULL)
+    {
