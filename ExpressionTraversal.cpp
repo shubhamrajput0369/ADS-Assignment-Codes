@@ -25,3 +25,8 @@ public:
     node* rotate_left(node *parent);
     node* RL(node *parent);
     node* RR(node *parent);
+    node* LR(node *parent);
+    node* LL(node *parent);
+    void preOrder(node*);
+    void inOrder(node*);
+    void postOrder(node*);
