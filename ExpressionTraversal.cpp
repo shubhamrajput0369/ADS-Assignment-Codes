@@ -93,3 +93,12 @@ node* AVL::insert_node(node* root,int value)
     return root;
 }
 int AVL::height(node* temp)
+{
+    int h=0;
+    if(temp!=NULL)
+    {
+        int l_height=height(temp->lf);
+        int r_height=height(temp->rt);
+        int max_height=max(l_height,r_height);
+        h=max_height+1;
+    }
