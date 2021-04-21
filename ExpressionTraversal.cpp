@@ -146,3 +146,11 @@ node* AVL::RR(node* parent)
     parent=rotate_left(parent);
     return parent;
 }
+node* AVL::LR(node* parent)
+{
+    node* temp;
+    temp=parent->lf;
+    parent->lf=rotate_left(temp);
+    temp=rotate_right(parent);
+    return temp;
+}
