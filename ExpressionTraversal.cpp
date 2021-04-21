@@ -30,3 +30,16 @@ public:
     void preOrder(node*);
     void inOrder(node*);
     void postOrder(node*);
+    node* getroot()
+    {
+        return root;
+    }
+};
+void AVL::preOrder(node *cn)
+{
+    if(cn != NULL)
+    {
+        cout<<cn->data<<" ";
+        preOrder(cn->lf);
+        preOrder(cn->rt);
+    }
