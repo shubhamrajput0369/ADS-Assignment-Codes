@@ -164,3 +164,22 @@ node* AVL::RL(node* parent)
     return temp;
 }
 
+node* AVL::balance(node* T)
+{
+    int bal_factor=B_Factor(T);
+    if(bal_factor>1)
+    {
+        if(B_Factor(T->lf)>0)
+        {
+            T=LL(T);
+        }
+        else
+            T=LR(T);
+    }
+    else if(bal_factor<-1)
+    {
+        if(B_Factor(T->rt)>0)
+            T=RL(T);
+        else
+            T=RR(T);
+    }
