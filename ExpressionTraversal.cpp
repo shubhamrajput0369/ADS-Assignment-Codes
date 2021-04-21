@@ -84,3 +84,11 @@ node* AVL::insert_node(node* root,int value)
         root->lf=insert_node(root->lf,value);
         root=balance(root);
     }
+    else if(value>root->data)
+        {
+            root->rt=insert_node(root->rt,value);
+            root=balance(root);
+        }
+    //cout<<"\n INSERTION DONE!!!!!!!!";
+    return root;
+}
