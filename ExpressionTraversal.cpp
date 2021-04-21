@@ -13,3 +13,7 @@ class AVL
 public:
         node* root;
 
+    AVL()
+{
+        root=NULL;
+}
