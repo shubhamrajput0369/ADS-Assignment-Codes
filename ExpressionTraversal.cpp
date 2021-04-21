@@ -53,3 +53,9 @@ void AVL::inOrder(node *cn)
     {
 
         inOrder(cn->lf);
+        cout<<cn->data<<" ";
+        inOrder(cn->rt);
+    }
+}
+
+
