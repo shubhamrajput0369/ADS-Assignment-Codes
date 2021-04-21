@@ -59,3 +59,12 @@ void AVL::inOrder(node *cn)
 }
 
 
+void AVL::postOrder(node *cn)
+{
+    if(cn != NULL)
+    {
+        postOrder(cn->lf);
+        postOrder(cn->rt);
+        cout<<cn->data<<" ";
+    }
+}
