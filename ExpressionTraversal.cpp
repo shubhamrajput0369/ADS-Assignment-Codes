@@ -102,3 +102,23 @@ int AVL::height(node* temp)
         int max_height=max(l_height,r_height);
         h=max_height+1;
     }
+    return h;
+}
+int AVL::B_Factor(node* temp)
+{
+    int l_height=height(temp->lf);
+    int r_height=height(temp->rt);
+    int b_factor=l_height-r_height;
+    return b_factor;
+}
+
+node* AVL::rotate_right(node* parent)
+{
+    node* temp;
+    temp=parent->lf;
+    parent->lf=temp->rt;
+    temp->rt=parent;
+
+    return temp;
+
+}
