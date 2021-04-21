@@ -17,3 +17,11 @@ public:
 {
         root=NULL;
 }
+    node* insert_node(node* root,int value);
+    node* balance(node *T);
+    int height(node *temp);
+    int B_Factor(node *temp);
+    node* rotate_right(node *parent);
+    node* rotate_left(node *parent);
+    node* RL(node *parent);
+    node* RR(node *parent);
