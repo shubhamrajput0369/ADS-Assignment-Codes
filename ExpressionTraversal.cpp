@@ -223,3 +223,9 @@ int main()
                  obj.postOrder(obj.getroot());
                  break;
 
+        }
+
+    }while(ch!=5);
+
+    return 0;
+}
