@@ -92,3 +92,4 @@ node* AVL::insert_node(node* root,int value)
     //cout<<"\n INSERTION DONE!!!!!!!!";
     return root;
 }
+int AVL::height(node* temp)
