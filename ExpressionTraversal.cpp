@@ -183,3 +183,26 @@ node* AVL::balance(node* T)
         else
             T=RR(T);
     }
+    else
+    {
+        // khali'
+    }
+    return T;
+}
+
+
+
+int main()
+{
+    AVL obj;
+    int ch,value;
+    node* r;
+    do
+    {
+        cout<<"\n 1.ADD NODE";
+        //cout<<"\n DISPLAY TREE";
+        cout<<"\n 2.INORDER TRAVERSAL";
+        cout<<"\n 3.PREORDER TRAVERSAL";
+        cout<<"\n 4.POSTORDER TRAVERSAL";
+        cout<<"\n 5.EXIT";
+        cin>>ch;
