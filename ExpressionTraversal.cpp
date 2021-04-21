@@ -8,3 +8,8 @@ struct node
     int data;
     struct node *lf,*rt;
 };
+class AVL
+{
+public:
+        node* root;
+
