@@ -206,3 +206,20 @@ int main()
         cout<<"\n 4.POSTORDER TRAVERSAL";
         cout<<"\n 5.EXIT";
         cin>>ch;
+        switch(ch)
+        {
+        case 1:
+                cout<<"\n Enter Value you want to enter: ";
+                cin>>value;
+                obj.root=obj.insert_node(obj.getroot(),value);
+                break;
+        case 2:
+                obj.inOrder(obj.getroot());
+                break;
+        case 3:
+                 obj.preOrder(obj.getroot());
+                 break;
+        case 4:
+                 obj.postOrder(obj.getroot());
+                 break;
+
