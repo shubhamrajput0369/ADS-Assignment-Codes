@@ -43,3 +43,13 @@ void AVL::preOrder(node *cn)
         preOrder(cn->lf);
         preOrder(cn->rt);
     }
+
+}
+
+
+void AVL::inOrder(node *cn)
+{
+    if(cn != NULL)
+    {
+
+        inOrder(cn->lf);
