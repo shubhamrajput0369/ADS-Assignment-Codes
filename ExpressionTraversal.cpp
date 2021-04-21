@@ -122,3 +122,12 @@ node* AVL::rotate_right(node* parent)
     return temp;
 
 }
+node* AVL::rotate_left(node* parent)
+{
+    node* temp;
+    temp=parent->rt;
+    parent->rt=temp->lf;
+    temp->lf=parent;
+
+    return temp;
+
