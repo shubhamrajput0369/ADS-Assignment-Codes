@@ -7,3 +7,7 @@ using namespace std;
 struct node
 { int data;
   node *prev,*next;
+};
+
+struct node *head=NULL,*temp=NULL;
+
