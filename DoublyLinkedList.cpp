@@ -14,4 +14,8 @@ struct node *head=NULL,*temp=NULL;
 class dll
 {public :int pos;
 	void insert()
-			{
+	{
+				node *nn= new node;
+				cout<<"enter value:";
+				cin>>nn->data;
+
