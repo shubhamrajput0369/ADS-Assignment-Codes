@@ -15,7 +15,8 @@ class dll
 {public :int pos;
 	void insert()
 	{
+	void insert()
+			{
 				node *nn= new node;
 				cout<<"enter value:";
 				cin>>nn->data;
-
