@@ -146,7 +146,7 @@ int main()
 
 			case 5: l.display();
 			break;
-			}
+		}
 
 			}while(ch<=5);
 		return 0;
