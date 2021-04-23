@@ -11,3 +11,7 @@ struct node
 
 struct node *head=NULL,*temp=NULL;
 
+class dll
+{public :int pos;
+	void insert()
+			{
