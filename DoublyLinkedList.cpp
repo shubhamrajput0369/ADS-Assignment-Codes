@@ -132,10 +132,10 @@ int main()
 		cin>>ch;
 		switch(ch)
 		{
-				case 1:l.insert();
-				break;
+			case 1:l.insert();
+			break;
 
-				case 2: l.insert_at_beg();
+			case 2: l.insert_at_beg();
 				break;
 
 				case 3: l.insert_at_pos();
