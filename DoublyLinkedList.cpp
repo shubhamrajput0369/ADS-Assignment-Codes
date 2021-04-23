@@ -144,7 +144,7 @@ int main()
 			case 4: l.insert_at_end();
 			break;
 
-				case 5: l.display();
+			case 5: l.display();
 				break;
 			}
 
