@@ -28,3 +28,7 @@ class dll
 					head = nn;
 				}
 				else
+				{
+					temp=head;
+					while(temp->next!=NULL)
+					{
