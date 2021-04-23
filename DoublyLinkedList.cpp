@@ -21,9 +21,9 @@ class dll
 		cout<<"enter value:";
 		cin>>nn->data;
 
-				nn->next =NULL;
-				nn->prev=NULL;
-				if(head== NULL)
+		nn->next =NULL;
+		nn->prev=NULL;
+		if(head== NULL)
 				{
 					head = nn;
 				}
