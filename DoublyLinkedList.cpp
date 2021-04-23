@@ -141,7 +141,7 @@ int main()
 			case 3: l.insert_at_pos();
 			break;
 
-				case 4: l.insert_at_end();
+			case 4: l.insert_at_end();
 			break;
 
 				case 5: l.display();
