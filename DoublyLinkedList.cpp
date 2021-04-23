@@ -120,15 +120,15 @@ class dll
 };
 int main()
 {
-			dll l;
-			int ch;
-			do{
-			cout<<"\n1.Insert";
-			cout<<"\n2.insert_beg";
-			cout<<"\n3.insert_pos";
-			cout<<"\n4.insert_end";
-			cout<<"\n5.display";
-			cout<<"\n Enter your choice : ";
+	dll l;
+	int ch;
+	do{
+		cout<<"\n1.Insert";
+		cout<<"\n2.insert_beg";
+		cout<<"\n3.insert_pos";
+		cout<<"\n4.insert_end";
+		cout<<"\n5.display";
+		cout<<"\n Enter your choice : ";
 			cin>>ch;
 			switch(ch)
 			{
