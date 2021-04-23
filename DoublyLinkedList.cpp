@@ -23,3 +23,8 @@ class dll
 
 				nn->next =NULL;
 				nn->prev=NULL;
+				if(head== NULL)
+				{
+					head = nn;
+				}
+				else
