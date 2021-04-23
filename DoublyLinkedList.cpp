@@ -138,7 +138,7 @@ int main()
 			case 2: l.insert_at_beg();
 			break;
 
-				case 3: l.insert_at_pos();
+			case 3: l.insert_at_pos();
 			break;
 
 				case 4: l.insert_at_end();
