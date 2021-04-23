@@ -24,86 +24,86 @@ class dll
 		nn->next =NULL;
 		nn->prev=NULL;
 		if(head== NULL)
-				{
-					head = nn;
-				}
-				else
-				{
-					temp=head;
-					while(temp->next!=NULL)
-					{
-						temp=temp->next;
-					}
-					{
-						temp=temp->next;
-					}
-					temp->next=nn;
-					nn->prev=temp;
-				}
+		{
+			head = nn;
+		}
+		else
+		{
+			temp=head;
+			while(temp->next!=NULL)
+			{
+				temp=temp->next;
 			}
+			temp->next=nn;
+			nn->prev=temp;
+		}
+	}
 
 	void insert_at_beg()
-	{node *nn= new node;
-	cout<<"enter value:";
+	{
+		node *nn= new node;
+		cout<<"enter value:";
 
-	cin>>nn->data;
-	nn->next =NULL;
-	nn->prev=NULL;
-	if(head==NULL)
+		cin>>nn->data;
+		nn->next =NULL;
+		nn->prev=NULL;
+		if(head==NULL)
 		head=nn;
-	else
+		else
 		nn->next=head;
-	    head->prev=nn;
-	    head=nn;
+	    	head->prev=nn;
+	    	head=nn;
 	}
 
 	void insert_at_end()
-	{node *nn= new node;
-	cout<<"enter value:";
-	cin>>nn->data;
-	nn->next =NULL;
-	nn->prev=NULL;
-	if(head==NULL)
-		head=nn;
-	else
 	{
-	temp=head;
-		while(temp->next!=NULL)
+		node *nn= new node;
+		cout<<"enter value:";
+		cin>>nn->data;
+		nn->next =NULL;
+		nn->prev=NULL;
+		if(head==NULL)
+		head=nn;
+		else
 		{
-			temp=temp->next;
-		}
+			temp=head;
+			while(temp->next!=NULL)
+			{
+				temp=temp->next;
+			}
 
-		temp->next=nn;
-		nn->prev=temp;
-		nn->next=NULL;
-	}
+			temp->next=nn;
+			nn->prev=temp;
+			nn->next=NULL;
+		}
 	}
 
 	void insert_at_pos()
-	{node *nn= new node;
-	cout<<"enter value:";
-	cin>>nn->data;
-	nn->next =NULL;
-	nn->prev=NULL;
-	if(head==NULL)
+	{
+		node *nn= new node;
+		cout<<"enter value:";
+		cin>>nn->data;
+		nn->next =NULL;
+		nn->prev=NULL;
+		if(head==NULL)
 		head=nn;
-	else
+		else
 		temp=head;
-	 cout<<"enter position to insert a node!";
-	 cin>>pos;
-	 for(int i=1;i<pos-1;i++)
-		 temp=temp->next;
+	 	cout<<"enter position to insert a node!";
+	 	cin>>pos;
+	 	for(int i=1;i<pos-1;i++)
+		temp=temp->next;
 
-	 nn->prev=temp;
-	 nn->next=temp->next;
-	 temp->next=nn;
-	 nn->next->prev=nn;
+	 	nn->prev=temp;
+	 	nn->next=temp->next;
+	 	temp->next=nn;
+	 	nn->next->prev=nn;
 	}
 
 	void display()
-			{
-				if(head==NULL)
-				{
+	{
+		if(head==NULL)
+		{
 					cout<<"\n Empty doubly linked List! ";
 				}
 				else
