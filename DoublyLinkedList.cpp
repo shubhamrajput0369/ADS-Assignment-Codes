@@ -129,9 +129,9 @@ int main()
 		cout<<"\n4.insert_end";
 		cout<<"\n5.display";
 		cout<<"\n Enter your choice : ";
-			cin>>ch;
-			switch(ch)
-			{
+		cin>>ch;
+		switch(ch)
+		{
 				case 1:l.insert();
 				break;
 
