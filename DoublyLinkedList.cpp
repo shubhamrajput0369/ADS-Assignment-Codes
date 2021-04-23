@@ -31,4 +31,3 @@ class dll
 				{
 					temp=head;
 					while(temp->next!=NULL)
-					{
