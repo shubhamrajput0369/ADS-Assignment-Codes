@@ -12,7 +12,8 @@ struct node
 struct node *head=NULL,*temp=NULL;
 
 class dll
-{public :int pos;
+{
+	public :int pos;
 	void insert()
 	{
 	void insert()
@@ -104,26 +105,21 @@ class dll
 	{
 		if(head==NULL)
 		{
-					cout<<"\n Empty doubly linked List! ";
-				}
-				else
-				{
-					temp=head;
-					while(temp!=NULL)
-					{
-						cout<<temp->data<<" ";
-						temp=temp->next;
-					}
-				}
+			cout<<"\n Empty doubly linked List! ";
+		}
+		else
+		{
+			temp=head;
+			while(temp!=NULL)
+			{
+				cout<<temp->data<<" ";
+				temp=temp->next;
 			}
-
-
-
-
-
+		}
+	}
 };
 int main()
-		{
+{
 			dll l;
 			int ch;
 			do{
