@@ -20,3 +20,6 @@ class dll
 				node *nn= new node;
 				cout<<"enter value:";
 				cin>>nn->data;
+
+				nn->next =NULL;
+				nn->prev=NULL;
