@@ -136,13 +136,13 @@ int main()
 			break;
 
 			case 2: l.insert_at_beg();
-				break;
+			break;
 
 				case 3: l.insert_at_pos();
-				break;
+			break;
 
 				case 4: l.insert_at_end();
-				break;
+			break;
 
 				case 5: l.display();
 				break;
