@@ -23,3 +23,5 @@ class PrimsAlg
 		cout<<"\n Enter number of edges ";
 		cin>>E;
 		for(i=0;i<E;++i)
+		{
+			int m,n;
