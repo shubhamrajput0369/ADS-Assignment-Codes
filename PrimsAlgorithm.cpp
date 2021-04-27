@@ -68,3 +68,7 @@ class PrimsAlg
 				{
 					lowcost[j]=G[vertex][j];
 					from[j]=vertex;
+				}
+			}
+		}
+		cout<<"\n Cost of MSt :"<<mincost<<endl;
