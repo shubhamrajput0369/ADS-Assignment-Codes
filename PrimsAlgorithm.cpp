@@ -27,3 +27,4 @@ class PrimsAlg
 			int m,n;
 			cout<<"\n Enter start and end vertex and its cost :";
 			cin>>m>>n>>cost;
+			G[m][n]=cost;
