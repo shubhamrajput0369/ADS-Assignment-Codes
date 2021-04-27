@@ -62,3 +62,9 @@ class PrimsAlg
 			cout<<"\n Edge"<<from[vertex]<< " "<<vertex<<"\n ";
 			mincost=mincost+lowcost[vertex];
 			visited[vertex]=1;
+			for (int j=1;j<=V;++j)
+			{
+				if(!visited[j]&&(G[vertex][j]<lowcost[j]))
+				{
+					lowcost[j]=G[vertex][j];
+					from[j]=vertex;
