@@ -77,3 +77,7 @@ class PrimsAlg
 int main()
 {
 	PrimsAlg p;
+	p.create();
+	p.prims();
+	return 0;
+}
