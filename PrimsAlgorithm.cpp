@@ -18,3 +18,8 @@ class PrimsAlg
 		cout<<"\n Enter number of vertex ";
 		cin>>V;
 		for(i=1;i<=V;++i)
+			for (j=1;j<=V;++j)
+				G[i][j]=INF;
+		cout<<"\n Enter number of edges ";
+		cin>>E;
+		for(i=0;i<E;++i)
