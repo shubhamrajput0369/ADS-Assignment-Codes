@@ -31,3 +31,9 @@ class PrimsAlg
 			G[n][m]=cost;
 		}
 	}
+	void prims()
+	{
+		int min;
+		int lowcost[MAX];
+		int from[MAX];
+		int visited[MAX];
