@@ -12,3 +12,6 @@ class PrimsAlg
 	int V,E;
 	int G[MAX][MAX];
 	void create()
+	{
+		int cost,i,j;
+		cout<<"\n Enter number of vertex ";
