@@ -16,3 +16,5 @@ class PrimsAlg
 	{
 		int cost,i,j;
 		cout<<"\n Enter number of vertex ";
+		cin>>V;
+		for(i=1;i<=V;++i)
