@@ -10,3 +10,5 @@ class PrimsAlg
 {
 	public:
 	int V,E;
+	int G[MAX][MAX];
+	void create()
