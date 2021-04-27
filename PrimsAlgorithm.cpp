@@ -3,3 +3,4 @@
 
 #include<iostream>
 #define MAX 20
+#define INF 999
