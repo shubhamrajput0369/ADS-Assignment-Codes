@@ -7,3 +7,6 @@
 using namespace std;
 
 class PrimsAlg
+{
+	public:
+	int V,E;
