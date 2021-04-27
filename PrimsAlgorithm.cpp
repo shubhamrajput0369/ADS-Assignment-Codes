@@ -72,3 +72,8 @@ class PrimsAlg
 			}
 		}
 		cout<<"\n Cost of MSt :"<<mincost<<endl;
+	}
+};
+int main()
+{
+	PrimsAlg p;
