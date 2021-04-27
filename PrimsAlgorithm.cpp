@@ -58,3 +58,7 @@ class PrimsAlg
 					vertex=j;
 				}
 			}
+			
+			cout<<"\n Edge"<<from[vertex]<< " "<<vertex<<"\n ";
+			mincost=mincost+lowcost[vertex];
+			visited[vertex]=1;
