@@ -25,3 +25,5 @@ class PrimsAlg
 		for(i=0;i<E;++i)
 		{
 			int m,n;
+			cout<<"\n Enter start and end vertex and its cost :";
+			cin>>m>>n>>cost;
