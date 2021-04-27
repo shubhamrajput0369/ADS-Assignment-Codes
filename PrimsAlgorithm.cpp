@@ -27,3 +27,34 @@ class PrimsAlg
 			int m,n;
 			cout<<"\n Enter start and end vertex and its cost :";
 			cin>>m>>n>>cost;
+			G[m][n]=cost;
+			G[n][m]=cost;
+		}
+	}
+	void prims()
+	{
+		int min;
+		int lowcost[MAX];
+		int from[MAX];
+		int visited[MAX];
+		cout<<"\n Minimum spanning tree ";
+		int mincost=0;
+		for(int i=1;i<=V;i++)
+		{
+			lowcost[i]=G[1][i];
+			from[i]=1;
+			visited[i]=0;
+		}
+		visited[1]=1;
+		for(int i=1;i<V;++i)
+		{
+			int vertex;
+			min=INF;
+			for (int j=2;j<=V;++j)
+			{
+				if(!visited[j]&&(min>lowcost[j]))
+				{
+					min=lowcost[j];
+					vertex=j;
+				}
+			}
