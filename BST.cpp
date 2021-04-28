@@ -64,3 +64,6 @@ public:
 		    displayPre(cn->lf);
 	    	displayPre(cn->rt);
 		}
+	}
+	void displayIn(node*cn)
+	{
