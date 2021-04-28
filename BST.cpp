@@ -71,6 +71,3 @@ public:
 		{
 			displayIn(cn->lf);
 			cout<<cn->data<<"  ";
-			displayIn(cn->rt);
-		}
-	}
