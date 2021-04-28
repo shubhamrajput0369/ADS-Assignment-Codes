@@ -61,3 +61,6 @@ public:
 		if(cn!=NULL)
 		{
 		    cout<<cn->data<<"  ";
+		    displayPre(cn->lf);
+	    	displayPre(cn->rt);
+		}
