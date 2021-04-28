@@ -94,3 +94,4 @@ int main()
 			cout<<"\n 1. Insert ";
 			cout<<"\n 2. pre order ";
 			cout<<"\n 3. in order";
+			cout<<"\n 4. post order";
