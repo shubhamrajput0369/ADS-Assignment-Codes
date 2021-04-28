@@ -51,3 +51,8 @@ public:
 		    		temp=1;
 		    		cn->rt=nn;
 		    	}
+		    	else
+		    		cn=cn->rt;
+		    }
+		}
+	}
