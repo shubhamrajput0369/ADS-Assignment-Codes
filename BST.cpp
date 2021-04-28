@@ -24,3 +24,13 @@ public:
 		nn=new node;
 		cout<<"\n Enter the new value ";
 		cin>>nn->data;
+		nn->lf=nn->rt=NULL;
+		if(root==NULL)
+			root=nn;
+		else
+		{
+			int temp = 0;
+		    cn=root;
+		    while(temp==0)
+		    {
+		    if(cn->data > nn->data)
