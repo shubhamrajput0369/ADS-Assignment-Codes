@@ -103,3 +103,12 @@ int main()
 			break;
 			case 2:obj.displayPre(obj.root);
 			break;
+			case 3:obj.displayIn(obj.root);
+			break;
+			case 4:obj.displayPost(obj.root);
+			break;
+			case 5:break;
+			}
+		}while(choice!=5);
+	return 0;
+}
