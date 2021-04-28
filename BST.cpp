@@ -90,3 +90,5 @@ int main()
 	int choice;
 		do
 		{
+			cout<<"\n enter your choice ";
+			cout<<"\n 1. Insert ";
