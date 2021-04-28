@@ -80,3 +80,7 @@ public:
 		{
 			displayPost(cn->lf);
 			displayPost(cn->rt);
+			cout<<cn->data<<"  ";
+		}
+	}
+};
