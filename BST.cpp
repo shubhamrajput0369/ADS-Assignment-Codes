@@ -9,3 +9,8 @@ typedef struct node
 	int data;
 	struct node*lf,*rt;
 }node;
+
+class bst
+{
+public:
+	node*root;
