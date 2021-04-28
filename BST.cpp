@@ -99,3 +99,5 @@ int main()
 			cin>>choice;
 			switch(choice)
 			{
+			case 1:obj.insert();
+			break;
