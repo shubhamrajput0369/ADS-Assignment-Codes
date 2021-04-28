@@ -87,3 +87,6 @@ public:
 int main()
 {
 	bst obj;
+	int choice;
+		do
+		{
