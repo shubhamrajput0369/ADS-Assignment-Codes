@@ -14,3 +14,13 @@ class bst
 {
 public:
 	node*root;
+	bst()
+	{
+		root=NULL;
+	}
+	void insert()
+	{
+		node*nn,*cn;
+		nn=new node;
+		cout<<"\n Enter the new value ";
+		cin>>nn->data;
