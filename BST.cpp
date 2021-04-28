@@ -67,3 +67,6 @@ public:
 	}
 	void displayIn(node*cn)
 	{
+		if(cn!=NULL)
+		{
+			displayIn(cn->lf);
