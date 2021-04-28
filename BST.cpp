@@ -101,3 +101,5 @@ int main()
 			{
 			case 1:obj.insert();
 			break;
+			case 2:obj.displayPre(obj.root);
+			break;
