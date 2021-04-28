@@ -34,3 +34,14 @@ public:
 		    while(temp==0)
 		    {
 		    if(cn->data > nn->data)
+		    {
+		    	if(cn->lf==NULL)
+		    	{
+		    		temp=1;
+		    	    cn->lf=nn;
+		    	}
+		        else
+		        {
+		    	cn=cn->lf;
+		        }
+		    }
