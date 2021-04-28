@@ -56,3 +56,8 @@ public:
 		    }
 		}
 	}
+	void displayPre(node*cn)
+	{
+		if(cn!=NULL)
+		{
+		    cout<<cn->data<<"  ";
