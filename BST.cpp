@@ -70,3 +70,7 @@ public:
 		if(cn!=NULL)
 		{
 			displayIn(cn->lf);
+			cout<<cn->data<<"  ";
+			displayIn(cn->rt);
+		}
+	}
