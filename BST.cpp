@@ -45,3 +45,9 @@ public:
 		    	cn=cn->lf;
 		        }
 		    }
+		    else
+		    	if(cn->rt==NULL)
+		    	{
+		    		temp=1;
+		    		cn->rt=nn;
+		    	}
