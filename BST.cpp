@@ -84,3 +84,6 @@ public:
 		}
 	}
 };
+int main()
+{
+	bst obj;
