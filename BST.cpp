@@ -97,3 +97,5 @@ int main()
 			cout<<"\n 4. post order";
 			cout<<"\n 5. Exit";
 			cin>>choice;
+			switch(choice)
+			{
