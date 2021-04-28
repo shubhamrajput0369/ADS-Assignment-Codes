@@ -74,3 +74,9 @@ public:
 			displayIn(cn->rt);
 		}
 	}
+	void displayPost(node*cn)
+	{
+		if(cn!=NULL)
+		{
+			displayPost(cn->lf);
+			displayPost(cn->rt);
