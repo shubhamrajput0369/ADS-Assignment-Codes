@@ -92,3 +92,5 @@ int main()
 		{
 			cout<<"\n enter your choice ";
 			cout<<"\n 1. Insert ";
+			cout<<"\n 2. pre order ";
+			cout<<"\n 3. in order";
