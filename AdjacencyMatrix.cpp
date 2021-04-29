@@ -32,3 +32,5 @@ public:
 			cout<<"\nEnter m and n";
 			cin>>m>>n;
 			a[m][n]=1;
+			a[n][m]=1;
+		}
