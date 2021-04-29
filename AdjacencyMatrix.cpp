@@ -71,3 +71,6 @@ public:
 	{
 		nn = new node;
 		nn->data=n;
+		nn->next=NULL;
+		if(adl[m]==NULL)
+			adl[m]=nn;
