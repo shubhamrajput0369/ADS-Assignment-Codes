@@ -66,3 +66,6 @@ public:
 			add(n,m);
 		}
 		cout<<"edges added";
+	}
+	void add(int m,int n)
+	{
