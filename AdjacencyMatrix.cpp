@@ -69,3 +69,5 @@ public:
 	}
 	void add(int m,int n)
 	{
+		nn = new node;
+		nn->data=n;
