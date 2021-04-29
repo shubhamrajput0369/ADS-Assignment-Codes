@@ -34,3 +34,9 @@ public:
 			a[m][n]=1;
 			a[n][m]=1;
 		}
+
+	}
+	void dispM()
+	{
+		for(int i=0;i<v;i++)
+		{
