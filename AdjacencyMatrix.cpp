@@ -103,3 +103,6 @@ int main() {
 	int ch;
 	do{
 		cout<<"\n1.Input Matrix\n2.Display Matrix\n3.Input List\n4.Display List\n5.Exit";
+	    cin>>ch;
+	    switch(ch)
+	    {
