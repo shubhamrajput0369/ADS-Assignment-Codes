@@ -111,3 +111,4 @@ int main() {
 	    	break;
 	    case 2:
 	    	obj.dispM();
+	    	break;
