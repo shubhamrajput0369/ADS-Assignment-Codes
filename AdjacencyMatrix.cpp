@@ -59,3 +59,6 @@ public:
 		cin>>e;
 		for(int j=1;j<=e;j++)
 		{
+			int m,n;
+			cout<<"\nEnter edge vertices: ";
+			cin>>m>>n;
