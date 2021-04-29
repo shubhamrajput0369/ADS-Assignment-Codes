@@ -17,3 +17,6 @@ public:
 
 	void adjM()
 	{
+		cout<<"\nEnter number of vertices and edges";
+		cin>>v>>e;
+		for(i=0;i<v;i++)
