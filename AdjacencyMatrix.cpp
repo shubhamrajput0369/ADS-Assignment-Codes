@@ -118,3 +118,9 @@ int main() {
 	    	break;
 	    case 4:
 	    	obj.dispL();
+	    	break;
+	    }
+	}while(ch!=5);
+	obj.adjM();
+	return 0;
+}
