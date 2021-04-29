@@ -106,3 +106,8 @@ int main() {
 	    cin>>ch;
 	    switch(ch)
 	    {
+	    case 1:
+	    	obj.adjM();
+	    	break;
+	    case 2:
+	    	obj.dispM();
