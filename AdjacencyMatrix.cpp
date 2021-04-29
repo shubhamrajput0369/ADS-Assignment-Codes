@@ -9,3 +9,11 @@ struct node{
 };
 class adj{
 	node *cn,*nn;
+	int v,e;
+	int i;
+	int a[10][10];
+    node *adl[10];
+public:
+
+	void adjM()
+	{
