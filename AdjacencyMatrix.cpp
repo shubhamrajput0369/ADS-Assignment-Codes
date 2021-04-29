@@ -40,3 +40,18 @@ public:
 	{
 		for(int i=0;i<v;i++)
 		{
+			for(int j=0;j<v;j++)
+			{
+		     cout<<a[i][j]<<" ";
+		     }
+			cout<<"\n";
+		 }
+	}
+	void adjL()
+	{
+		cout<<"\nEnter number of vertices: ";
+		cin>>v;
+		for(int i=0;i<=v;i++)
+		{
+			adl[i]=NULL;
+		}
