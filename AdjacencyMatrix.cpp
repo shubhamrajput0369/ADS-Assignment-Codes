@@ -74,3 +74,27 @@ public:
 		nn->next=NULL;
 		if(adl[m]==NULL)
 			adl[m]=nn;
+		else
+		{
+			cn=adl[m];
+		    while(cn->next!=NULL)
+		    	cn=cn->next;
+		    cn->next=nn;
+		}
+	}
+	void dispL()
+	{
+		for(int i=1;i<=v;i++)
+		{
+			cout<<"[ "<<i<<" ]";
+			cn=adl[i];
+			while(cn!=NULL)
+			{
+				cout<<" -> "<<cn->data;
+				cn=cn->next;
+			}
+			cout<<"\n";
+		}
+	}
+};
+
