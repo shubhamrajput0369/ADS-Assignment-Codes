@@ -63,3 +63,6 @@ public:
 			cout<<"\nEnter edge vertices: ";
 			cin>>m>>n;
 			add(m,n);
+			add(n,m);
+		}
+		cout<<"edges added";
