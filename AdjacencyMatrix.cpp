@@ -62,3 +62,4 @@ public:
 			int m,n;
 			cout<<"\nEnter edge vertices: ";
 			cin>>m>>n;
+			add(m,n);
