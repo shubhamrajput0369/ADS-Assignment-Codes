@@ -112,3 +112,9 @@ int main() {
 	    case 2:
 	    	obj.dispM();
 	    	break;
+
+	    case 3:
+	    	obj.adjL();
+	    	break;
+	    case 4:
+	    	obj.dispL();
