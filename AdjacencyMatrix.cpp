@@ -58,3 +58,4 @@ public:
 		cout<<"\nEnter Number of Edges: ";
 		cin>>e;
 		for(int j=1;j<=e;j++)
+		{
